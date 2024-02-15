@@ -228,9 +228,9 @@ footer{
 /*Configuracion para un telefono*/
 @media screen and (max-width:480px){
   .main, .imgHEad{
-    width: auto;
+    width: 480px;
   }
-  
+
   .boxPut, .boxGet{
     display: block;
     width: auto;
