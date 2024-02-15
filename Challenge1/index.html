@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" src="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="imgHEad">
+        <img src="imagenes/alura-Logo.png" class="aluraLogo" alt="Logo de Alura">
+      </div>
+    </header>
+
+    <main>
+      <div class="boxPut">
+        <textarea id="mensajeUsuario" class="areaMensaje" placeholder="Ingrese su mensaje aqui"></textarea>
+        <img src="imagenes/exclamacion-icon0.png" class="iconExclamacion" alt="Icono de admiracion">
+        <p class="avisoMensaje">Solo letras minúsculas y sin acentos</p>
+        <button class="encriptaBoton" onclick="encriptaMensaje();">Encriptar</button>
+        <button class="desencriptaBoton" onclick="desencriptaMensaje();">Desencriptar</button>
+      </div>
+      
+      <div class="boxGet"> 
+        <div id="hayMensaje">
+          <textarea id="mensajeEncriptado" class="areaEncriptado" readonly></textarea> 
+          <button class="copiaBoton" onclick="copiarMensaje();">Copiar</button>
+        </div>
+
+        <div id="noHayMensaje">
+          <img src="imagenes/Muñeco.png" class="mensajeLogo" alt="No hay texto imagen">
+          <p class="encriptadoParrafo1">Ningun mensaje fue encontrado</p>
+          <p class="encriptadoParrafo2">Ingresa el texto que deseas encriptar o  desencriptar</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="copyRight"> &copy Camacho Morales Gerardo Ivan</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
