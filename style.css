@@ -7,6 +7,13 @@ button{
   font-family: 'Montserrat', sans-serif;
 }
 
+button:hover{
+  background-color: #609ED4;
+}
+button:active{
+  border-color: #ffffff;
+}
+
 .imgHEad{
   width: 940px;
   position: relative;
@@ -189,39 +196,61 @@ footer{
   .boxPut, .boxGet{
     display: block;
     width: auto;
+    height: auto;
     text-align: center;
+    margin: 15px 0 0 0;
   }
   .areaEncriptado, .areaMensaje{
     display: block;
-    width: 97%;
-    border:2px solid  #0A3871;
+    width: 95%;
     margin: 0 0 0 0;
-    font-size: 26px;
   }
 
   .areaMensaje{
     font-size: 30px;
+    padding-left: 10px;
+    margin-left: 7px;
+  }
+
+  .iconExclamacion{
+    width: 20px;
+    margin-top: 10px;
   }
 
   .avisoMensaje{
-    margin: 0 500px 0 0;
+    margin: 0 300px 0 0;
+    font-size: 20px; 
   }
 
   .encriptaBoton,.desencriptaBoton{
     width: 45%;
     height: 70px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .areaEncriptado{
-    font-size: 25px;
+    font-size: 28px;
+    padding-left: 20px;
   }
 
   .copiaBoton{
     width: 95%;
     height: 70px;
-    font-size: 20px;
+    font-size: 22px;
     margin: 15px 0 0 0 ;
+  }
+
+  .encriptadoParrafo1{
+    display: block;
+    font-size: 26px;
+    margin: 10px 0 0 0;
+    padding-top: 15px;
+  }
+  
+  .encriptadoParrafo2{
+    font-size: 24px;
+    margin: 0 0 0 0;
+    padding-bottom: 15px;
   }
 
   .mensajeLogo{
@@ -251,9 +280,17 @@ footer{
 
   .areaMensaje{
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 10px;
   }
-
+  .iconExclamacion{
+    width: 20px;
+    margin-top: 10px;
+  }
+  .avisoMensaje{
+    font-size: 20px; 
+    margin: 0 0 0 0;
+    text-align: left;
+  }
   .encriptaBoton,.desencriptaBoton{
     display: block;
     width: 95%;
@@ -261,30 +298,17 @@ footer{
     font-size: 24px;
   }
 
-  .avisoMensaje{
-    margin: 0 0 0 0;
-    text-align: left;
-  }
-
   .areaEncriptado{
     font-size: 28px;
+    padding-left: 20px;
   }
 
   .copiaBoton{
     width: 95%;
     height: 70px;
-    font-size: 20px;
+    font-size: 22px;
     margin: 15px 0 0 0 ;
   }
-
-  .iconExclamacion{
-    width: 20px;
-    margin-top: 10px;
-  }
-  .avisoMensaje{
-    font-size: 20px; 
-  }
-
   .encriptadoParrafo1{
     display: block;
     font-size: 26px;
@@ -296,7 +320,6 @@ footer{
     font-size: 24px;
     margin: 0 0 0 0;
     padding-bottom: 15px;
-
   }
 
   .mensajeLogo{
